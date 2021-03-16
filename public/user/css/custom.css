@@ -1,0 +1,19 @@
+#search{
+    background-color:transparent;
+    border-radius: 0;
+    color:white;
+    width:270px;
+    font-size: 11px;
+}
+
+#search::placeholder{
+    color: white;
+}
+
+.no-hover::before{
+    border: 0;
+}
+.no-hover::after{
+    border: 0;
+}
+
